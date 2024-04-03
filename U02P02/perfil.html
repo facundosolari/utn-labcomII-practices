@@ -1,0 +1,63 @@
+<html>
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+</head>
+
+<body>
+    <h1> Bienvenido al Registro </h1>
+    <p> Debe ingresar sus datos para poder continuar </p>
+    <form action="perfil.html">
+
+        <input type="text" name="lecutra" value="ESTUDIANTE" readonly>
+        <label for="nombre">Nombre : </label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="apellido">Apellido : </label>
+        <input type="text" name="apellido" id="apellido"> <br>
+        <label for="mail">Mail : </label>
+        <input type="email" name="mail" id="mail">
+        <input type="submit" value="Enviar" />
+        <label for="edad">Edad : </label>
+        <input type="number" name="edad" id="edad">
+        <label for="nacionalidad"> Nacionalidad : </label>
+        <select name="nacionalidad" id="nacionalidad">
+            <option value="nacionalidad1"> Argentina </option>
+            <option value="nacionalidad2"> Brasil </option>
+            <option value="nacionalidad3"> Uruguay </option>
+            <option value="nacionalidad4"> Paraguay </option>
+        </select>
+        <br>
+        <label for="condicionlaboral"> Condicion Laboral : </label>
+        <select name="condicionlaboral" id="condicionlaboral">
+            <option value="condicion1"> Desempleado </option>
+            <option value="condicion2"> Búsqueda Laboral </option>
+            <option value="condicion3"> Trabajo Part Time </option>
+            <option value="condicion4"> Trabajo Full Time </option>
+        </select>
+        <fieldset>
+            <label for="gustosmusicales"> Gustos Musicales</label>
+            <input type="text" id="gustosmusicales" name="gustosmusicales">
+            <label for="comidapreferida"> Comida Preferida </label>
+            <select name="comidapreferida" id="comidapreferida">
+                <option value="comida1"> Pizza </option>
+                <option value="comida2"> Hamburguesa </option>
+                <option value="comida3"> Asado </option>
+                <option value="comida4"> Tarta de Verdura</option>
+            </select>
+            <br>
+            <input type="submit" value="Enviar Datos">
+            <label for="autocompletar"> Recordar Autocompletado</label>
+            <input type="checkbox" name="autocompletar" autocomplete>
+            
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
