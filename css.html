@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /*Por Nombre*/
+        .estilo1{
+            font-size:30px;
+            font-family:Tahoma;
+            font-weight: bold;
+            color:blue;
+
+        }
+        /*Por ID*/
+        #txNombre{
+            background-color:rgb(103, 53, 53)!important;
+        }
+        #txNombre2{
+            color:black;
+            background-color:rgb(236, 16, 196);
+        }
+        /*Por etiqueta*/
+       pre{
+         color:rgb(229, 237, 15)
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 20px;margin:10px 20px 40px 30px">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Facilis culpa aliquam quisquam, quod laudantium nostrum accusamus suscipit vero,
+        quae enim impedit incidunt 
+        cupiditate maiores assumenda aspernatur accusantium exercitationem libero rem.
+    </p>    
+    <p style="font-size: 20px; font-family:Arial ; color:chartreuse;background-color:tomato;margin-top: 10 px;margin-bottom:30px;margin-left: 20px;margin-right:60px;">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae obcaecati eligendi 
+        Saepe facere architecto pariatur ab consectetur ea praesentium! 
+        Repellendus dolore provident modi! Quis laborum, quasi laboriosam similique assumenda voluptate!
+    </p>
+    <p class="estilo1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Aspernatur atque molestias iusto aut, error recusandae placeat deleniti. 
+        Quam quo dolore consectetur placeat repellat quia earum mollitia, fugit nemo voluptate quod.
+    </p>
+    <pre>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Accusamus <spam class="estilo1">cumque in reiciendis minima repellendus consequatur ad magnam</spam> consectetur voluptatibus quis aliquam
+        Atque, vero nesciunt corrupti veritatis. 
+        Est tenetur praesentium omnis?
+    </pre>
+    <textarea id="txtDescripcion" cols="10" rows="10"></textarea>
+    <br>
+    <input type="text" id="txNombre" name="txNombre" value="">
+    <br>
+    //////////Esto viene linkeado con style.css por el link rel="stylesheet" href="style.css" de arriba////
+    <p id="txNombre">
+        Lorem ipsum <spam id="txNombre2">dolor sit amet consectetur adipisicing</spam> elit. 
+        Hic amet provident facilis vero tempore in aperiam, ipsam maxime. 
+        Ut natus corporis nobis distinctio esse harum omnis consequatur veniam. Molestias, labore.
+    </p>
+   
+    <input type="text" id="txNombre3" name="txNombre3" value="">
+    <p id="id">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Repudiandae expedita esse qui! 
+        Autem suscipit incidunt quasi aliquam tempore excepturi delectus velit. 
+        Optio odio ullam culpa, officia autem maiores architecto? Perferendis!
+
+    </p>
+    <p class="classname">
+       <h1> Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h1>
+        At fugit recusandae voluptate ducimus ullam commodi earum, cupiditate facilis voluptatum! 
+        Sapiente perferendis maxime quidem ab voluptatum suscipit voluptatem at rem deserunt!
+    </p>
+</body>
+</html>
