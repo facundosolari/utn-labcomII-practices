@@ -1,0 +1,14 @@
+.cuadro { 
+    display: flex;
+    background-color:  rgba(193,219,210,1.00);
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items:center;
+    font-family: sans-serif;
+    gap: 2px;
+    padding:3px;
+
+
+
+}

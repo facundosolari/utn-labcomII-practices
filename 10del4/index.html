@@ -1,0 +1,37 @@
+<style>
+    article *:first-of-type {
+        background-color: pink;
+    }
+    article div:last-of-type{
+        color:red;
+    }
+    article div em:last-child{ 
+        font-size:large;
+        background-color:blue;
+    }
+    article div em:first-letter{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background-color:blue;
+      font-size: 10px;;
+    }
+    article div p::first-letter{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:black;
+      font-size: 20px;;
+    }
+    article div p:last-of-type{
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color:green;
+      font-size: 20px;;
+    }
+</style>
+<article>
+    <div>Primer div</div>
+    <div>Este <span>span anidado es el primero</span>!!!!!!!!!!!!!!!adwawd</div>
+    <div>Este <em>eeeeeeem </em>anidado es el primero,este <em>em es el segundo</em>, y este <em>eeeem  </em> anidado es el ultimo</div>
+    <div>Este <p>p </p>anidado es el primero,este <p>p es el segundo</p>, y este <p>ppppp  </p> anidado es el ultimo</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>Este es el ultimo div <em> adwadwawj </em></div>
+</article>

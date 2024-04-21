@@ -1,0 +1,20 @@
+.main {
+    display:flex;
+    gap:2px;
+    min-height:100vh;
+    font-family:sans-serif;
+}
+
+.main .sidebar,.main .contenido {
+    height: 100vh;
+    padding: 12px 24px;
+}
+.main .sidebar {
+  background-color: rgba(30, 137, 137, 0.812);
+  flex:1;
+}
+.main .contenido {
+    background-color: rgba(111, 164, 65, 0.685);
+    flex: 4;
+
+}

@@ -1,0 +1,49 @@
+.main 
+{
+    display:flex;
+    gap: 6px;
+    font-family: sans-serif;
+    height: 100vh;
+}
+ul 
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding-inline-start: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+}
+ul li
+{
+    border-bottom: 1px solid rgb(87, 87, 87);
+    list-style: none;
+    padding: 4px;
+    text-align: center;
+}
+ul li a
+{
+    padding: 10px;
+}
+
+ul li a:link
+{
+    text-decoration: none;
+    color:black;
+    display:block;
+}
+.main .sidebar 
+{
+    flex: 1;
+    background-color: rgba(129, 35, 35, 0.589);
+    padding-left: 20px;
+    padding-right:20px;
+}
+.main .contenido 
+{
+    flex: 8;
+    background-color: rgba(78, 44, 181, 0.589);
+    text-align: center;
+    padding-top: 10px;
+}
