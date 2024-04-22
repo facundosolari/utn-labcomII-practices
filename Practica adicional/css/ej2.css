@@ -1,0 +1,28 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: Verdana,serif;
+}
+header{
+  
+    background-color: darkgray;
+    font-size: 3em;
+    font-weight: bold;
+    padding:30px;
+    color:#fff;
+}
+nav{
+    display:flex;
+    align-items:flex-start;
+    justify-content:center;
+    background-color: darkslategray;
+}
+nav a{
+    padding: 15px;
+    text-decoration: none;
+    color: lightgrey;
+
+}
+nav a:hover{
+    background-color: goldenrod;
+}

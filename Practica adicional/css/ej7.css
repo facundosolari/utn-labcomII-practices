@@ -1,0 +1,26 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Verdana,serif;
+}
+
+header{
+background-color: rgb(50, 50, 50);
+padding:30px;
+font-weight: bold;
+font-size:3em;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    width: 300px;
+}
+nav a{
+    text-decoration: none;
+    padding:10px;
+    color:black;
+}
+nav a:hover{
+    background-color: dimgray;
+}
